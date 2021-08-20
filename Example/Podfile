@@ -2,7 +2,7 @@ platform :ios, '12.0'
 use_frameworks!
 
 target 'DemoActivityIndicator_Example' do
-  pod 'DemoActivityIndicator', :path => '../'
+  pod 'DemoActivityIndicator', :git => 'https://github.com/jkeiththomson/DemoActivityIndicator.git', :commit => '73f176'
 
   target 'DemoActivityIndicator_Tests' do
     inherit! :search_paths
